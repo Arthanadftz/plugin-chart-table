@@ -20,7 +20,7 @@
  */
 import React from 'react';
 import { t, validateNonEmpty, addLocaleData, smartDateFormatter } from '@superset-ui/core';
-import { formatSelectOptions, D3_TIME_FORMAT_OPTIONS, ColumnOption } from '@superset-ui/chart-controls';
+import { formatSelectOptions, D3_TIME_FORMAT_OPTIONS, ColumnOption } from '@arthanasti/chart-controls';
 import i18n from './i18n';
 addLocaleData(i18n);
 export const PAGE_SIZE_OPTIONS = formatSelectOptions([[0, t('page_size.all')], 10, 20, 50, 100, 200]);

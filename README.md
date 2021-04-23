@@ -1,4 +1,4 @@
-## @superset-ui/plugin-chart-table
+## @arthanasti/plugin-chart-table
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/plugin-chart-table.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/plugin-chart-table)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-plugin-chart-table&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=plugins/superset-ui-plugin-chart-table)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import TableChartPlugin from '@superset-ui/plugin-chart-table';
+import TableChartPlugin from '@arthanasti/plugin-chart-table';
 
 new TableChartPlugin().configure({ key: 'table' }).register();
 ```

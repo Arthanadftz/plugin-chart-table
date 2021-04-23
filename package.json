@@ -1,6 +1,6 @@
 {
-  "name": "@superset-ui/plugin-chart-table",
-  "version": "0.15.19",
+  "name": "@arthanasti/plugin-chart-table",
+  "version": "1.0.0",
   "description": "Superset Chart - Table",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -16,18 +16,18 @@
   "keywords": [
     "superset"
   ],
-  "author": "Superset",
+  "author": "Arthanadftz",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apache-superset/superset-ui/issues"
+    "url": "https://github.com/Arthanadftz/superset-ui/issues"
   },
-  "homepage": "https://github.com/apache-superset/superset-ui#readme",
+  "homepage": "https://github.com/Arthanadftz/superset-ui#readme",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
-    "@superset-ui/chart-controls": "0.15.19",
+    "@arthanasti/chart-controls": "1.0.0",
     "@superset-ui/core": "0.15.19",
     "@types/d3-array": "^2.0.0",
     "@types/match-sorter": "^4.0.0",
