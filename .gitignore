@@ -1,0 +1,35 @@
+.DS_Store
+*.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Cache
+.bundle/
+.happo/
+.idea/
+.next/
+.cache
+.eslintcache
+.idea
+.npm
+.vscode
+.yarnclean
+
+# Directories
+public/
+node_modules/
+tmp/
+_gh-pages/
+
+# Custom
+*.map
+*.min.js
+test-changelog.md
+
+*.tsbuildinfo
+
+# Ignore npm lock files, always use yarn.lock instead
+npm-shrinkwrap.json
+package-lock.json

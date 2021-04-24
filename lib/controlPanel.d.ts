@@ -1,4 +1,4 @@
-import { ControlPanelConfig } from '@superset-ui/chart-controls';
+import { ControlPanelConfig } from '@arthanasti/chart-controls';
 export declare const PAGE_SIZE_OPTIONS: [number, string][];
 export declare enum QueryMode {
     aggregate = "aggregate",
